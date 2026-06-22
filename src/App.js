@@ -554,8 +554,8 @@ export default function AdminDashboard() {
               <span>{t.icon}</span><span style={{lineHeight:1.3}}>{t.label}</span>
             </button>
           ))}
-          <div style={{marginTop:"auto",paddingTop:20,borderTop:"1px solid #F0EDE8",marginTop:16}}>
-            <a href="#" style={{display:"block",textAlign:"center",fontFamily:"Inter,sans-serif",fontSize:12,color:"#C0522A",fontWeight:600,textDecoration:"none",padding:"8px 0"}}>← Retour au site</a>
+          <div style={{paddingTop:20,borderTop:"1px solid #F0EDE8",marginTop:16}}>
+            <a href="https://immobenin-orcin.vercel.app" style={{display:"block",textAlign:"center",fontFamily:"Inter,sans-serif",fontSize:12,color:"#C0522A",fontWeight:600,textDecoration:"none",padding:"8px 0"}}>← Retour au site</a>
           </div>
         </nav>
 
